@@ -7,5 +7,12 @@ const surname =  prompt(`Inserisci Cognome?`);
 console.log (`surname:`, surname);
 
 //chiedi colore preferito e salva valore
-const FavoriteColor =  prompt(`Inserisci Colore Preferito?`);
-console.log (`FavoriteColor:`, FavoriteColor);
+const favoritecolor =  prompt(`Inserisci Colore Preferito?`);
+console.log (`favoritecolor:`, favoritecolor);
+
+//stampa soluzione valori su html
+document.writeln(`name` + `surname` + `favoritecolor` + 130);
+
+/*
+document.getElementById('psw').innerHTML = name + surname + favoritecolor + 130;
+*/
