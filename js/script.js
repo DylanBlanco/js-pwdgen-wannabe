@@ -13,6 +13,7 @@ console.log (`favoritecolor:`, favoritecolor);
 //stampa soluzione valori su html
 document.writeln(`name` + `surname` + `favoritecolor` + 130);
 
+//soluzione 2
 /*
 document.getElementById('psw').innerHTML = name + surname + favoritecolor + 130;
 */
